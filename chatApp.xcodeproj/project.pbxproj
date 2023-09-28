@@ -18,6 +18,8 @@
 		B7BAB1D92AAEFA3C00D50D9C /* AuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAB1D82AAEFA3B00D50D9C /* AuthHelper.swift */; };
 		B7BAB1DE2AAEFF4E00D50D9C /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAB1DD2AAEFF4E00D50D9C /* CreateAccountView.swift */; };
 		B7BAB1E02AAFF1F200D50D9C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAB1DF2AAFF1F200D50D9C /* LoginView.swift */; };
+		B7BAB1E22AB8132D00D50D9C /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAB1E12AB8132D00D50D9C /* DatabaseHelper.swift */; };
+		B7DDD7972AC588870079BC62 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD7962AC588870079BC62 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		B7BAB1D82AAEFA3B00D50D9C /* AuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthHelper.swift; sourceTree = "<group>"; };
 		B7BAB1DD2AAEFF4E00D50D9C /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		B7BAB1DF2AAFF1F200D50D9C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B7BAB1E12AB8132D00D50D9C /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		B7DDD7962AC588870079BC62 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D759182F0343EAAA093662C8 /* Pods-chatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chatApp.release.xcconfig"; path = "Target Support Files/Pods-chatApp/Pods-chatApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B7BAB1D82AAEFA3B00D50D9C /* AuthHelper.swift */,
+				B7BAB1E12AB8132D00D50D9C /* DatabaseHelper.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				B7BAB1DD2AAEFF4E00D50D9C /* CreateAccountView.swift */,
 				B7BAB1DF2AAFF1F200D50D9C /* LoginView.swift */,
+				B7DDD7962AC588870079BC62 /* CustomView.swift */,
 				B7BAB1CD2AADE1D200D50D9C /* LaunchScreen.storyboard */,
 				B7BAB1C82AADE1C900D50D9C /* Main.storyboard */,
 				B7BAB1CB2AADE1D200D50D9C /* Assets.xcassets */,
@@ -244,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7BAB1E02AAFF1F200D50D9C /* LoginView.swift in Sources */,
+				B7DDD7972AC588870079BC62 /* CustomView.swift in Sources */,
 				B7BAB1DE2AAEFF4E00D50D9C /* CreateAccountView.swift in Sources */,
 				B7BAB1C72AADE1C900D50D9C /* ViewController.swift in Sources */,
+				B7BAB1E22AB8132D00D50D9C /* DatabaseHelper.swift in Sources */,
 				B7BAB1D92AAEFA3C00D50D9C /* AuthHelper.swift in Sources */,
 				B7BAB1C32AADE1C900D50D9C /* AppDelegate.swift in Sources */,
 				B7BAB1C52AADE1C900D50D9C /* SceneDelegate.swift in Sources */,
